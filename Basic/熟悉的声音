@@ -1,0 +1,15 @@
+两种不同的元素，如果是声音的话，听起来是不是很熟悉呢，据说前不久神盾局某位特工领便当了大家都很惋惜哦
+
+XYYY YXXX XYXX XXY XYY X XYY YX YYXX
+
+请提交PCTF{你的答案}
+
+
+显然是莫斯电码。写一个python脚本：
+
+```
+"XYYY YXXX XYXX XXY XYY X XYY YX YYXX".replace('X','.').replace('Y','-')
+
+```
+
+得到JBLUWEWNZ，进行凯撒解密。结果中有一行PHRACKCTF。
