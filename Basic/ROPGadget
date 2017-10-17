@@ -1,0 +1,23 @@
+都说学好汇编是学习PWN的基础，以下有一段ROPGadget的汇编指令序列，请提交其十六进制机器码(大写，不要有空格)
+
+
+
+XCHG EAX,ESP
+
+RET
+
+MOV ECX,[EAX]
+
+MOV [EDX],ECX
+
+POP EBX
+
+RET
+
+
+
+提交格式：PCTF{你的答案}
+
+
+
+
